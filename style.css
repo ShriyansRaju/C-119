@@ -1,0 +1,44 @@
+canvas{
+    border:5px ridge rgb(154, 199, 254);
+    margin-top:50px;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{
+        box-shadow: 5px 5px 20px 10px #7DCD85;
+    }
+
+    to{
+        box-shadow: 5px 5px  20px 10px #37376e;
+    }
+}
+
+body{
+    background-color:rgb(188, 235, 253);
+    font-family: 'Recursive', sans-serif;
+}
+
+h1{
+    background-color:#7DCD85;
+    color:black
+}
+
+#show_sketch{
+    float: right;
+    background-color: #40376E;
+    color:white;
+    font-size:20px;
+    margin-top: 7px;
+}
+
+#clearing_button{
+    margin-top: 10px;
+}
+
+h3{
+    color: black;
+    font-size: xx-large;
+}
